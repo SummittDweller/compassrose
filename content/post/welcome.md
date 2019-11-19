@@ -5,7 +5,7 @@ linktitle: Welcome
 menu:
   main:
     parent: tutorials
-next: 
+next:
 prev:
 title: Welcome
 tags:

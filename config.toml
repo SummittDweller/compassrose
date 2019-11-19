@@ -1,0 +1,23 @@
+baseurl = "https://example.com"
+title = "The Compass Rose Band"
+author = "Steve Francia"
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+canonifyurls = true
+paginate = 3
+theme = "silhouette-hugo"
+
+pygmentsUseClasses=true
+
+#disqusShortname = ""
+#googleAnalytics = ""
+
+[params]
+author = ""
+introDescription = ""
+contentSharing = "I'm happy for you to share content on this site, but please provide attribution."
+
+[social]
+#instagram = "realmattbutton"
+#linkedin = "matt-button-2225537"
+twitter = ""
+facebook = ""

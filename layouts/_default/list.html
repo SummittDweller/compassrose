@@ -6,7 +6,7 @@
             rgba(0, 0, 0, 0.15),
             rgba(0, 0, 0, 0.15)
           ), url('{{ "images/banner1.jpg" | absURL }}');
-          height: 500px;
+          min-height: 200px;
       }
 
       .feature-image-text {
@@ -39,9 +39,9 @@
 {{ define "header" }}
   {{ if .IsHome }}
     <header class="feature-image">
-        <div class="feature-image-text white-shadow-text">
+        <!--<div class="feature-image-text white-shadow-text">
             {{ partial "header-about-me" . }}
-        </div>
+        </div><-->
     </header>
   {{ end }}
   {{ if not .IsHome }}

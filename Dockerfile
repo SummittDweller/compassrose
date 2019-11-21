@@ -6,9 +6,7 @@ RUN git clone https://github.com/mackengm/silhouette-hugo.git themes/silhouette-
 
 ##
 
-FROM klakegg/hugo:0.55.6-ext-alpine
-# FROM skyscrapers/hugo:0.48
-# FROM skyscrapers/hugo:0.46
+FROM klakegg/hugo:0.59.1-ext-alpine
 COPY --from=0 /data /data
 WORKDIR /data
 RUN hugo
